@@ -1,0 +1,27 @@
+name: Cobble
+version: @version@
+main: com.witulski.cobble.Cobble
+api-version: 1.17
+
+commands:
+  validate:
+    description: Validate your minecraft account
+    usage: /<command>
+  declineValidation:
+    description: Decline your minecraft accounts validation
+    usage: /<command>
+  login:
+    description: Login to your ReSRC account
+    usage: /<command> <secret>
+  checkLogin:
+    description: Check your login status
+    usage: /<command>
+  registerExchange:
+    description: Register an exchange name
+    usage: /<command> <Exchange Name> <Exchange Fee>
+  listExchanges:
+    description: List MC server registered exchanges
+    usage: /<command>
+  resetBlocks:
+    description: Resets drawn claim block blocks
+    usage: /<command>

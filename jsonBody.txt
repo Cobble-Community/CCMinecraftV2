@@ -1,0 +1,9 @@
+{
+    "user": {"username": "greenpeppers100", "password": "evanwit5"},
+    "mcusername": "greenpeppers100",
+    "mcsecret": "thisIsMySecret"
+}
+
+{
+	"name": "newExchange"
+}

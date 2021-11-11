@@ -28,6 +28,9 @@ dependencies {
 }
 
 processResources {
+
+    duplicatesStrategy = "exclude"
+
     from(sourceSets.main.resources.srcDirs) {
         filter ReplaceTokens, tokens: [version: version]
     }
